@@ -87,6 +87,7 @@
     [tabbarVc addChildViewController:onsiteNav];
     [tabbarVc addChildViewController:mineNav];
     [tabbarVc addChildViewController:moreNav];
+    //底部的控制器全部设置完毕,现在开始分模块的进行开发.
     
     //设置全局的字体是绿色的.
     [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:RGB(54, 185, 175),NSForegroundColorAttributeName,nil] forState:UIControlStateSelected];
